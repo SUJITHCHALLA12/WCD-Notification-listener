@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "627882372455",
+    "project_id": "flowstate-avu9i",
+    "storage_bucket": "flowstate-avu9i.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627882372455:android:8320a5b8cdf96ad453d3c2",
+        "android_client_info": {
+          "package_name": "com.pentester.wcd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3r1UvMoLZMbwjsOpJeV9gcbpCwDoKPQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
