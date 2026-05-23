@@ -156,7 +156,7 @@ WCD/
 
 **Sujith Challa**
 - GitHub: [@SUJITHCHALLA12](https://github.com/SUJITHCHALLA12)
-- Project: [Smart Attendance](https://sujithchalla12.github.io/smart-attendance)
+- Project: WCD-app
 
 ---
 
