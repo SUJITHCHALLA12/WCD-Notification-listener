@@ -1,1 +1,12 @@
-/build
+# Gradle
+.gradle/
+build/
+# Local configuration
+local.properties
+# Android Studio
+.idea/
+*.iml
+# OS
+.DS_Store
+# Secrets - NEVER commit the real one; see RECONSTRUCTION_NOTES.md
+app/google-services.json
