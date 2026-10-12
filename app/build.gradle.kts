@@ -1,1 +1,110 @@
-cGx1Z2lucyB7CiAgICBhbGlhcyhsaWJzLnBsdWdpbnMuYW5kcm9pZC5hcHBsaWNhdGlvbikKICAgIGFsaWFzKGxpYnMucGx1Z2lucy5rc3ApCiAgICBhbGlhcyhsaWJzLnBsdWdpbnMua290bGluLmFuZHJvaWQpCn0KCi8vIGdvb2dsZS1zZXJ2aWNlcy5qc29uIGlzIGdpdGlnbm9yZWQgKGVhY2ggZGV2ZWxvcGVyJ3Mgb3duIEZpcmViYXNlIGNvbmZpZywgbmV2ZXIgY29tbWl0dGVkKS4KLy8gRkNNIHB1c2ggYWN0aXZhdGVzIGF1dG9tYXRpY2FsbHkgd2hlbmV2ZXIgdGhlIGZpbGUgaXMgcHJlc2VudDsgQ0kgYnVpbGRzIGZpbmUgd2l0aG91dCBpdC4KaWYgKGZpbGUoImdvb2dsZS1zZXJ2aWNlcy5qc29uIikuZXhpc3RzKCkpIHsKICAgIGFwcGx5KHBsdWdpbiA9IGxpYnMucGx1Z2lucy5nb29nbGUuc2VydmljZXMuZ2V0KCkucGx1Z2luSWQpCn0KCmFuZHJvaWQgewogICAgbmFtZXNwYWNlID0gImNvbS5wZW50ZXN0ZXIud2NkIgogICAgY29tcGlsZVNkayA9IDM1CgogICAgZGVmYXVsdENvbmZpZyB7CiAgICAgICAgYXBwbGljYXRpb25JZCA9ICJjb20ucGVudGVzdGVyLndjZCIKICAgICAgICBtaW5TZGsgPSAyNAogICAgICAgIHRhcmdldFNkayA9IDM1CiAgICAgICAgdmVyc2lvbkNvZGUgPSAxCiAgICAgICAgdmVyc2lvbk5hbWUgPSAiMS4wIgoKICAgICAgICB0ZXN0SW5zdHJ1bWVudGF0aW9uUnVubmVyID0gImFuZHJvaWR4LnRlc3QucnVubmVyLkFuZHJvaWRKVW5pdFJ1bm5lciIKICAgICAgICB2ZWN0b3JEcmF3YWJsZXMgewogICAgICAgICAgICB1c2VTdXBwb3J0TGlicmFyeSA9IHRydWUKICAgICAgICB9CiAgICB9CgogICAgYnVpbGRUeXBlcyB7CiAgICAgICAgcmVsZWFzZSB7CiAgICAgICAgICAgIC8vIERlYnVnLXNpZ25lZDogaW5zdGFsbGFibGUgZm9yIHBlcnNvbmFsIHRlc3QgaW5zdGFsbHMsIE5PVCBmb3IgUGxheSBTdG9yZS4KICAgICAgICAgICAgc2lnbmluZ0NvbmZpZyA9IHNpZ25pbmdDb25maWdzLmdldEJ5TmFtZSgiZGVidWciKQogICAgICAgICAgICBpc01pbmlmeUVuYWJsZWQgPSBmYWxzZQogICAgICAgICAgICBwcm9ndWFyZEZpbGVzKAogICAgICAgICAgICAgICAgZ2V0RGVmYXVsdFByb2d1YXJkRmlsZSgicHJvZ3VhcmQtYW5kcm9pZC1vcHRpbWl6ZS50eHQiKSwKICAgICAgICAgICAgICAgICJwcm9ndWFyZC1ydWxlcy5wcm8iCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CiAgICBjb21waWxlT3B0aW9ucyB7CiAgICAgICAgc291cmNlQ29tcGF0aWJpbGl0eSA9IEphdmFWZXJzaW9uLlZFUlNJT05fMTEKICAgICAgICB0YXJnZXRDb21wYXRpYmlsaXR5ID0gSmF2YVZlcnNpb24uVkVSU0lPTl8xMQogICAgfQogICAgYnVpbGRGZWF0dXJlcyB7CiAgICAgICAgdmlld0JpbmRpbmcgPSB0cnVlCiAgICAgICAgY29tcG9zZSA9IHRydWUKICAgIH0KICAgIGNvbXBvc2VPcHRpb25zIHsKICAgICAgICBrb3RsaW5Db21waWxlckV4dGVuc2lvblZlcnNpb24gPSAiMS41LjEwIgogICAgfQogICAgcGFja2FnaW5nIHsKICAgICAgICByZXNvdXJjZXMgewogICAgICAgICAgICBleGNsdWRlcyArPSAiL01FVEEtSU5GL3tBTDIuMCxMR1BMMi4xfSIKICAgICAgICB9CiAgICB9Cn0KCmtvdGxpbiB7CiAgICBqdm1Ub29sY2hhaW4oMTEpCn0KCmRlcGVuZGVuY2llcyB7CiAgICBpbXBsZW1lbnRhdGlvbigiYW5kcm9pZHguY29tcG9zZS51aTp1aS10ZXh0LWdvb2dsZS1mb250czoxLjYuMyIpCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNvcmUua3R4KQogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5saWZlY3ljbGUucnVudGltZS5rdHgpCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmFwcGNvbXBhdCkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMubWF0ZXJpYWwpCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmdsaWRlKQogICAga3NwKGxpYnMuZ2xpZGUuY29tcGlsZXIpCiAgICB0ZXN0SW1wbGVtZW50YXRpb24obGlicy5qdW5pdCkKICAgIGFuZHJvaWRUZXN0SW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5qdW5pdCkKICAgIGFuZHJvaWRUZXN0SW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5lc3ByZXNzby5jb3JlKQogICAgLy8gUm9vbQogICAgaW1wbGVtZW50YXRpb24obGlicy5yb29tLnJ1bnRpbWUpCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLnJvb20ua3R4KQogICAga3NwKGxpYnMucm9vbS5jb21waWxlcikKCiAgICAvLyBDb3JvdXRpbmVzCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmtvdGxpbnguY29yb3V0aW5lcy5hbmRyb2lkKQogICAgaW1wbGVtZW50YXRpb24obGlicy5rb3RsaW54LmNvcm91dGluZXMuY29yZSkKCi8vIFNRTENpcGhlciAoRW5jcnlwdGVkIERCKQogICAgaW1wbGVtZW50YXRpb24obGlicy5zcWxjaXBoZXIpCiAgICBpbXBsZW1lbnRhdGlvbigiYW5kcm9pZHguc3FsaXRlOnNxbGl0ZToyLjQuMCIpCi8vIExpZmVjeWNsZQogICAgaW1wbGVtZW50YXRpb24obGlicy5saWZlY3ljbGUudmlld21vZGVsLmt0eCkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMubGlmZWN5Y2xlLmxpdmVkYXRhLmt0eCkKLy8gUmVjeWNsZXJWaWV3CiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLnJlY3ljbGVydmlldykKLy8gUERGCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLml0ZXh0Ny5jb3JlKQoKICAgIC8vIENvbXBvc2UKICAgIGltcGxlbWVudGF0aW9uKHBsYXRmb3JtKGxpYnMuYW5kcm9pZHguY29tcG9zZS5ib20pKQogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC51aSkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHgudWkuZ3JhcGhpY3MpCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LnVpLnRvb2xpbmcucHJldmlldykKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHgubWF0ZXJpYWwzKQogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5hY3Rpdml0eS5jb21wb3NlKQogICAgYW5kcm9pZFRlc3RJbXBsZW1lbnRhdGlvbihwbGF0Zm9ybShsaWJzLmFuZHJvaWR4LmNvbXBvc2UuYm9tKSkKICAgIGFuZHJvaWRUZXN0SW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC51aS50ZXN0Lmp1bml0NCkKICAgIGRlYnVnSW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC51aS50b29saW5nKQogICAgZGVidWdJbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LnVpLnRlc3QubWFuaWZlc3QpCgogICAgLy8gRmlyZWJhc2UgQ2xvdWQgTWVzc2FnaW5nICsgUmVhbHRpbWUgRGF0YWJhc2UgKGNsb3VkIHN5bmMgb2YgY2FwdHVyZWQgbm90aWZpY2F0aW9ucykKICAgIGltcGxlbWVudGF0aW9uKHBsYXRmb3JtKGxpYnMuZmlyZWJhc2UuYm9tKSkKICAgIGltcGxlbWVudGF0aW9uKGxpYnMuZmlyZWJhc2UubWVzc2FnaW5nKQogICAgaW1wbGVtZW50YXRpb24obGlicy5maXJlYmFzZS5kYXRhYmFzZSkKfQ==
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.kotlin.android)
+}
+
+// google-services.json is gitignored (each developer's own Firebase config, never committed).
+// FCM push activates automatically whenever the file is present; CI builds fine without it.
+if (file("google-services.json").exists()) {
+    apply(plugin = libs.plugins.google.services.get().pluginId)
+}
+
+android {
+    namespace = "com.pentester.wcd"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.pentester.wcd"
+        minSdk = 24
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0"
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+    }
+
+    buildTypes {
+        release {
+            // Debug-signed: installable for personal test installs, NOT for Play Store.
+            signingConfig = signingConfigs.getByName("debug")
+            isMinifyEnabled = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+    buildFeatures {
+        viewBinding = true
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.10"
+    }
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+}
+
+kotlin {
+    jvmToolchain(11)
+}
+
+dependencies {
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.6.3")
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.glide)
+    ksp(libs.glide.compiler)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    // Room
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    ksp(libs.room.compiler)
+
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.coroutines.core)
+
+// SQLCipher (Encrypted DB)
+    implementation(libs.sqlcipher)
+    implementation("androidx.sqlite:sqlite:2.4.0")
+// Lifecycle
+    implementation(libs.lifecycle.viewmodel.ktx)
+    implementation(libs.lifecycle.livedata.ktx)
+// RecyclerView
+    implementation(libs.recyclerview)
+// PDF
+    implementation(libs.itext7.core)
+
+    // Compose
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.ui)
+    implementation(libs.androidx.ui.graphics)
+    implementation(libs.androidx.ui.tooling.preview)
+    implementation(libs.androidx.material3)
+    implementation(libs.androidx.activity.compose)
+    androidTestImplementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(libs.androidx.ui.test.junit4)
+    debugImplementation(libs.androidx.ui.tooling)
+    debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Firebase Cloud Messaging + Realtime Database (cloud sync of captured notifications)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.messaging)
+    implementation(libs.firebase.database)
+}
