@@ -28,8 +28,12 @@ jobs:
           gradle-version: '8.7'
 
       - name: Restore google-services.json (enables Firebase cloud sync)
-        if: ${{ secrets.GOOGLE_SERVICES_JSON != '' }}
-        run: echo "${{ secrets.GOOGLE_SERVICES_JSON }}" | base64 -d > app/google-services.json
+        env:
+          GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
+        run: |
+          if [ -n "$GOOGLE_SERVICES_JSON" ]; then
+            echo "$GOOGLE_SERVICES_JSON" | base64 -d > app/google-services.json
+          fi
 
       - name: Build release APK
         run: gradle assembleRelease --no-daemon
