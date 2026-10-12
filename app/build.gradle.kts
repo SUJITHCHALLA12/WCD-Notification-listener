@@ -64,7 +64,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-text-google-fonts:1.6.3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.appcompat)
+    implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.glide)
     ksp(libs.glide.compiler)
