@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WCD</string>
+    <string name="notification_fallback_body">You have a new message</string>
+    <string name="deleted_message_incoming">This message was deleted</string>
+    <string name="deleted_message_outgoing">You deleted this message</string>
+    <string name="notification_listener_description">WCD reads WhatsApp notifications to build your chat history and detect deleted messages.</string>
+</resources>
