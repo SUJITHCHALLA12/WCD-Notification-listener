@@ -27,6 +27,10 @@ jobs:
         with:
           gradle-version: '8.7'
 
+      - name: Restore google-services.json (enables Firebase cloud sync)
+        if: ${{ secrets.GOOGLE_SERVICES_JSON != '' }}
+        run: echo "${{ secrets.GOOGLE_SERVICES_JSON }}" | base64 -d > app/google-services.json
+
       - name: Build release APK
         run: gradle assembleRelease --no-daemon
 
@@ -41,7 +45,7 @@ jobs:
           body: |
             Automated release build of the WCD Notification Listener Android app.
             Debug-signed — for personal test installs, not for Play Store distribution.
-            Note: FCM push is dormant in this build (google-services.json is gitignored and not bundled); the notification-capture core works fully.
+            Captured notifications are stored on-device (Room) and synced to Firebase Realtime Database.
           allowUpdates: true
           replacesArtifacts: true
           makeLatest: true
