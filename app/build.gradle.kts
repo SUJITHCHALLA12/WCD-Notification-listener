@@ -2,7 +2,12 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.ksp)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.google.services)
+}
+
+// google-services.json is gitignored (each developer's own Firebase config, never committed).
+// FCM push activates automatically whenever the file is present; CI builds fine without it.
+if (file("google-services.json").exists()) {
+    apply(plugin = libs.plugins.google.services.get().pluginId)
 }
 
 android {
@@ -24,6 +29,8 @@ android {
 
     buildTypes {
         release {
+            // Debug-signed: installable for personal test installs, NOT for Play Store.
+            signingConfig = signingConfigs.getByName("debug")
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -57,7 +64,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-text-google-fonts:1.6.3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.androidx.appcompat)
+    implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.glide)
     ksp(libs.glide.compiler)
